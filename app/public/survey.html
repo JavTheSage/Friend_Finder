@@ -19,7 +19,7 @@
         <form>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="">
+                    <input type="text" id="personalName" class="form-control" placeholder="">
                 </div>
             </div>
         </form>
@@ -27,15 +27,14 @@
         <form>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="">
+                    <input type="text" id="personalPic" class="form-control" placeholder="">
                 </div>
             </div>
         </form>
         <br>
         <h3>Question 1</h3>
         <p>Your mind is always buzzing with ideas.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select1">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -45,19 +44,17 @@
 
         <h3>Question 2</h3>
         <p>You rely more on experience than imagination.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select2">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select>
+         </select>
 
         <h3>Question 3</h3>
         <p>You keep a cool head even when under pressure.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select3">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -67,8 +64,7 @@
 
         <h3>Question 4</h3>
         <p>You rarely do something out of curiosity.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select4">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -78,8 +74,7 @@
 
         <h3>Question 5</h3>
         <p>People rarely get on your nerves.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select5">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -89,8 +84,7 @@
 
         <h3>Question 6</h3>
         <p>You find it difficult to relate to people's feelings.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select6">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -100,8 +94,7 @@
 
         <h3>Question 7</h3>
         <p>You always tell the truth to people regardless if it hurts their feelings.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select7">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -111,8 +104,7 @@
 
         <h3>Question 8</h3>
         <p>You rarely get carried away by fantasies and ideas.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select8">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -122,8 +114,7 @@
 
         <h3>Question 9</h3>
         <p>You think that everyone's views should be respected regardless whether or not they're supported by facts.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select9">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -133,15 +124,19 @@
 
         <h3>Question 10</h3>
         <p>You feel more energetic after spending time with a group of people.</p>
-        <select class="custom-select">
-            <option selected>Select an option</option>
+        <select class="custom-select10">
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
+        <button type="button" id="finalize" class="btn btn-primary btn-lg">Submit</button>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../../logic.js"></script>
+
 </body>
 
 </html>

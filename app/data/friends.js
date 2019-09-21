@@ -14,5 +14,22 @@ var friends = [
             3,
             5
         ]
-},
-    module.exports = friends;
+    },
+    {
+        name: "Javier",
+        photo: "https://vignette.wikia.nocookie.net/donkeykong/images/9/9e/Lankys_first_time_in_a_game.jpg/revision/latest?cb=20190123203040",
+        scores: [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            5,
+            2,
+            1
+        ]
+    }
+]
+module.exports = friends;

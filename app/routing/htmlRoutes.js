@@ -8,4 +8,8 @@ module.exports = function(app) {
 		res.sendFile('survey.html', { root: './app/public' });
 	})
 
+	app.get("/logic.js", function(req,res){
+		res.sendFile("logic.js", {root: "./"})
+	})
+
 };
